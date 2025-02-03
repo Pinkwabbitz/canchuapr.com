@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.cdnfonts.com/css/waltograph" rel="stylesheet">
+    <title>Landing Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+		
+		@import url('https://fonts.cdnfonts.com/css/waltograph');
+		
+		
+        body {
+            background-color: #36C198;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            position: relative;
+        }
+        .corner {
+            position: absolute;
+            width: 100px; /* Adjust size as needed */
+            height: 100px;
+        }
+        .top-left { top: 10px; left: 10px;
+			width: 150px;
+			height: auto;
+		}
+        .top-right { top: 10px; right: 10px; width: 150px;
+			height: auto; }
+        .bottom-left { bottom: 10px; left: 10px; width: 150px;
+			height: auto; }
+        .bottom-right { bottom: 10px; right: 10px; width: 150px;
+			height: auto; }
+        
+        .center-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+        }
+        .logo {
+            width: 350px; /* Adjust as needed */
+            margin-bottom: 20px;
+        }
+        .shop-button {
+            background-color: #D4DDFF;
+            color: #1637D8;
+            padding: 20px 20px 10px 20px;
+            font-size: 5rem;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            border: 2px solid black;
+			
+			font-family: 'Waltograph', sans-serif;
+			width: 100%;
+			text-align: center;
+			
+        }
+        .shop-button:hover {
+            background-color: lightgray;
+        }
+		
+		@media screen and (max-width: 768px) {
+    .corner {
+        width: 80px; /* Smaller size for smaller screens */
+        height: auto;
+    }
+    .top-left, .top-right, .bottom-left, .bottom-right {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .corner {
+        width: 60px; /* Even smaller size for mobile screens */
+        height: auto;
+    }
+    .top-left, .top-right, .bottom-left, .bottom-right {
+        width: 80px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <img src="file:///Macintosh HD/Users/danielbigay/Desktop/owen/stickfigure-02.png" class="corner top-left" alt="Top Left">
+    <img src="file:///Macintosh HD/Users/danielbigay/Desktop/owen/stickfigure-03.png" class="corner top-right" alt="Top Right">
+    <img src="file:///Macintosh HD/Users/danielbigay/Desktop/owen/stickfigure-04.png" class="corner bottom-left" alt="Bottom Left">
+    <img src="file:///Macintosh HD/Users/danielbigay/Desktop/owen/stickfigure-05.png" class="corner bottom-right" alt="Bottom Right">
+    
+    <div class="center-content">
+        <img src="file:///Macintosh HD/Users/danielbigay/Desktop/owen/canchua.PNG" class="logo" alt="Logo">
+        <a href="https://dizge2-zs.myshopify.com/" class="shop-button" target="_blank" rel="noopener noreferrer">
+    Enter To Canchua Land
+</a>
+
+    </div>
+</body>
+</html>
